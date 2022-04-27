@@ -29,6 +29,7 @@ body {
     font-style: normal;
     color: #373737;
     font-size: 14px;
+    direction: rtl !important;
 }
 
 a,
