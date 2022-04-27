@@ -187,7 +187,7 @@ img {
 }
 
 .ds-social li {
-    margin-left: 12px;
+    margin-right: 12px;
 }
 
 .ds-social li:first-child {
@@ -218,8 +218,8 @@ img {
 ----------------------------------------------------------------*/
 
 .ds-banner section {
-    padding-left: 70px;
-    padding-right: 100px;
+    padding-left: 100px;
+    padding-right: 70px;
 }
 
 .ds-banner section h1 span {
@@ -702,7 +702,7 @@ span.ds-department {
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .ds-banner section {
-        padding-right: 0;
+        padding-right: 70px;
     }
     .ds-work-list section {
         padding-right: 30px;
