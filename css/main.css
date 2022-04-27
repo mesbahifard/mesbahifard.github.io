@@ -154,7 +154,7 @@ img {
 .ds-logo {
     text-transform: uppercase;
     font-size: 18px;
-    letter-spacing: 3px;
+    /* letter-spacing: 3px; */
     color: #000;
     display: flex;
     align-items: center;
@@ -233,7 +233,7 @@ img {
 
 .ds-banner section h1 {
     font-weight: 600;
-    font-size: 48px;
+    font-size: 3vw;
     line-height: 60px;
     color: #000;
 }
@@ -295,7 +295,7 @@ img {
     font-size: 24px;
     line-height: 40px;
     font-weight: 300;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
 }
 
 .ds-button {
@@ -707,5 +707,51 @@ span.ds-department {
     .ds-work-list section {
         padding-right: 30px;
         padding-bottom: 60px;
+    }
+}
+
+
+/* Additional utility styles */
+
+.container-narrow {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.marker {
+    position: relative;
+    display: inline;
+    width: auto;
+}
+
+.marker-center {
+    padding-right: 0;
+}
+
+.marker:after {
+    content: "";
+    width: 125px;
+    height: 30px;
+    position: absolute;
+    bottom: -25px;
+    right: -30px;
+    background-image: url("../images/marker.svg");
+    background-repeat: no-repeat;
+}
+
+.marker-center:after {
+    bottom: -30px;
+    left: 50%;
+    margin-left: -60px;
+}
+
+@media (max-width: 575.98px) {
+    .marker {
+        padding-right: 0;
+    }
+    .marker:after {
+        bottom: -30px;
+        left: 50%;
+        margin-left: -60px;
     }
 }
