@@ -755,3 +755,19 @@ span.ds-department {
         margin-left: -60px;
     }
 }
+
+.text-small {
+    font-size: 0.875rem;
+}
+
+.text-uppercase {
+    letter-spacing: 0.05em;
+}
+
+.hover-effect {
+    transition: transform .18s ease-in-out;
+}
+
+.hover-effect:hover {
+    transform: translateY(-2px);
+}
