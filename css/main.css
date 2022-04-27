@@ -89,7 +89,7 @@ ul {
 }
 
 @font-face {
-    font-family: 'Inter', sans-serif;
+    font-family: 'IranSansnormal', sans-serif;
 }
 
 input:-webkit-autofill,
@@ -109,7 +109,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'IranSansnormal', sans-serif;
 }
 
 figure {
