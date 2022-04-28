@@ -359,7 +359,7 @@ img {
 ----------------------------------------------------------------*/
 
 .ds-experience-section {
-    /* padding-bottom: 40px; */
+    padding-bottom: 100px;
 }
 
 .ds-experience-list section {
@@ -702,10 +702,14 @@ span.ds-department {
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .ds-banner section {
-        /* padding-right: 70px; */
+        /* padding-right: 100px; */
     }
     .ds-work-list section {
         padding-right: 30px;
         padding-bottom: 60px;
     }
+}
+
+.dir-ltr {
+    direction: ltr;
 }
