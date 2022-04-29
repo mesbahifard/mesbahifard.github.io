@@ -109,7 +109,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'IranSansnormal', sans-serif;
+    font-family: 'IranSans200', sans-serif;
 }
 
 figure {
@@ -228,7 +228,7 @@ img {
     letter-spacing: 1px;
     font-weight: 500;
     font-size: 16px;
-    padding-bottom: 30px;
+    /* padding-bottom: 20px; */
 }
 
 .ds-banner section h1 {
@@ -275,7 +275,7 @@ img {
 
 .ds-about-section {
     padding-top: 60px;
-    padding-bottom: 120px;
+    padding-bottom: 90px;
 }
 
 .ds-heading {
@@ -327,7 +327,7 @@ img {
 ----------------------------------------------------------------*/
 
 .ds-skills-section {
-    padding-bottom: 105px;
+    padding-bottom: 90px;
 }
 
 .ds-skills-list {
@@ -359,7 +359,7 @@ img {
 ----------------------------------------------------------------*/
 
 .ds-experience-section {
-    padding-bottom: 100px;
+    padding-bottom: 90px;
 }
 
 .ds-experience-list section {
@@ -433,7 +433,7 @@ span.ds-department {
 ----------------------------------------------------------------*/
 
 .ds-work-section {
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 
 .ds-work-list {
@@ -469,7 +469,7 @@ span.ds-department {
 
 .ds-work-det-hed {
     padding-top: 42px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 
 .ds-work-det-title {
@@ -487,7 +487,7 @@ span.ds-department {
 }
 
 .ds-work-content-sec {
-    padding: 100px 0;
+    padding: 40px 0;
 }
 
 .ds-work-content-sec p {
