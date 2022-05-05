@@ -226,7 +226,7 @@ img {
     display: block;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     /* padding-bottom: 20px; */
 }
@@ -249,11 +249,15 @@ img {
 }
 
 .ds-numbervalulist li {
-    margin-left: 60px;
+    margin: 0 60px;
 }
 
 .ds-numbervalulist li:last-child {
     margin-right: 0;
+}
+
+.ds-numbervalulist li:first-child {
+    margin-left: 0;
 }
 
 .ds-numbervalulist strong {
@@ -261,6 +265,7 @@ img {
     color: #F26464;
     font-size: 36px;
     font-weight: 800;
+    text-align: center;
 }
 
 .ds-numbervalulist span {
